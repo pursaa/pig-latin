@@ -1,30 +1,26 @@
-# _Leap Year Detector_
+# _Pig Latin Translator_
 
-#### _This app detects if a specific year is a leap year, August 16, 2017_
+#### _This app with take a word and change it to pig latin, August 16, 2017_
 
 #### By _Debbie Michel_
 
 ## Description
 
-*_This app will detect if a year is a leap year using the following specifications:_
-*_The program should return when a year is not a leap year._
-    _Input Example: 1993_
-    _Output Example: false_
-*_The program should return 'true' for years divisible by 4, since those are leap years._
-    _Input Example: 2004_
-    _Output Example: true_
-*_The program should return 'false' for years divisible by 100, since those are not leap years._
-    _Input Example: 1900_
-    _Output Example: false_
-*_The program should return 'true' for years divisible by 400, since those are leap years._
-    _Input Example: 2000_
-    _Output Example: true_
+_This app will translate a word into pig latin using the following specifications:_
+
+* _Treat words starting with "y" as consonants_
+
+* _Words beginning with a vowel, add "way" to the end_
+
+* _Words beginning with one or more consonants move all the first consecutive consonants to the end and add "ay"_
+
+* _IF the first consonants include "qu", move the "u" along with the "q". this includes the words like "squad" where "qu" doesn't come first_
 
 Setup/Installation Requirements
 
-* _Clone the repository bdd-practice_
+* _Clone the repository called pig-latin_
 * _Open html in web browser_
-* _Click the find out button_
+* _enter a word and click translate_
 
 
 ## Known Bugs
